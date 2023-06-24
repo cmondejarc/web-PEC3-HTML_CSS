@@ -544,12 +544,12 @@ ul li.lnk {
 }
 
 @media (min-width: 992px) {
-    main {
+    main.article {
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
         gap: 0px 2.5em; 
         grid-template-areas: 'nav nav nav'
-                             'article article aside';
+                             'article article aside'
     }    
     header {
         height: 25vh;
